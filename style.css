@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: #fff;
+    font-family: Inter;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 570px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero-page {
+    background-image: url(./images/bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    align-content: center;
+}
+
+.hero {
+    width: 500px;
+    height: 330px;
+    margin-top: 200px;
+    padding-left: 80px;
+}
+
+.hero h1 {
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+
+.hero p {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.hero button {
+    margin-top: 20px;
+    width: 200px;
+    height: 55px;
+    font-size: 18px;
+}
+
+.skills {
+    height: 482px;
+    justify-content: space-between;
+}
+
+.skills h2 {
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bold;
+}
+
+.skillset {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 242px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 40px;
+}
+
+.portfolio h2 {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.portfolio-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.portfolio-buttons button {
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #000;
+    border: solid 2px #BDAE82;
+    color: #fff;
+}
+
+.portfolio-buttons .gold-button {
+    background-color: #BDAE82;
+    color: #000;
+}
+
+.portfolio .pic-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.portfolio .pic-box img {
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
